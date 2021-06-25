@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <style type="text/css">
+      body {
+        background-image: linear-gradient(-74deg, transparent 90%, rgba(255, 255, 255, 0.23) 20%), linear-gradient(-74deg, transparent 83%, rgba(255, 255, 255, 0.18) 15%), linear-gradient(-74deg, transparent 76%, rgba(255, 255, 255, 0.1) 15%), linear-gradient(to top, #127ab1, #1799e0, #1796db);
+    		background-size: cover;
+    		margin-bottom: 0px!important;
+        color: white;
+        font-family: 'Geomanist', sans-serif;
+  			font-weight: normal;
+      }
+      div.container {
+        max-width: 500px;
+        margin: 100px auto;
+        padding: 10px;
+        text-align: center;
+      }
+      h4 {
+        text-transform: initial;
+      }
+    </style>
+  </head>
+  <body>
+    <p align="center"><img align="middle" src=https://www.lacework.com/wp-content/uploads/2019/07/Lacework_Logo_color_2019.svg width=60%></img></p>
+    <h1 align="center">Welcome to my new full automated Python Container web app</h1>
+    <p align="center">The app is running on a thin Alpine and Python stack with Flask and managed by Azure DevOps.</p>
+    <p align="center">Congratulations on deploying your very first Docker container protected by Lacework inside the Container itself, why not let the world know!</p>
+    <p align="center">Container ID: {{hostname}}</p>
+    <div class="container">
+        <img src="{{url}}" />
+	  </div>
+    <p align="center"><OUTPUT></p>
+    <p align="center"><a href="https://twitter.com/intent/tweet?button_hashtag=myfirstcontainer" class="twitter-hashtag-button" data-size="large" data-text="I just deployed my first @docker container with #Python and #Alpine protected by Lacework" data-url="http://www.docker.com" data-lang="en" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+    </body>
+</html>
